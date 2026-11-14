@@ -1,0 +1,13 @@
+(version 1)
+
+# Die GND-Pins 2 und 4 der Massstab-Stecker liegen zwischen Signal- und +5-V-Pins.
+# Der Weg Pin 1 -> Pull-up -> Pin 3 umschliesst Pin 2 auf der Unterseite zwangslaeufig,
+# dort bleibt ein Steg zur GND-Flaeche. Auf der Oberseite sind die Pins normal angebunden.
+(rule "GND an Massstab-Steckern: ein Steg genuegt"
+	(condition "A.Type == 'Pad' && A.NetName == 'GND' && (A.Parent == 'J1' || A.Parent == 'J2' || A.Parent == 'J3' || A.Parent == 'J5')")
+	(constraint min_resolved_spokes 1))
+
+# Freie U2-Eingaenge (Pins 5, 9, 11, 13) haengen ueber Leiterbahnen an GND, die Flaeche ist nur Zugabe.
+(rule "GND an freien U2-Eingaengen"
+	(condition "A.Type == 'Pad' && A.NetName == 'GND' && A.Parent == 'U2'")
+	(constraint min_resolved_spokes 1))
