@@ -10,6 +10,7 @@ internet connection, no display hardware needed.
 ![Finished DRO in its case at the lathe](images/dro_case_closed.jpg)
 
 🎥 **Video (German):** *link follows when the video is published*
+🛠️ **Building and printing the case (German):** [https://www.youtube.com/watch?v=JSoUT4cyio0](https://www.youtube.com/watch?v=JSoUT4cyio0)
 📺 Channel: [Anton CNC on YouTube](https://www.youtube.com/@boessi)
 
 Firmware version: **v1.0**
@@ -89,6 +90,7 @@ Firmware version: **v1.0**
 - **Sub-D 9 (DB9) panel connectors** for the scales, cables to the JST-XH sockets on the PCB.
 - **Case:** [`case/Gehaeuse.stl`](case/Gehaeuse.stl) and [`case/Deckel.stl`](case/Deckel.stl)
   (also as 3MF); the editable Fusion design is [`case/DRO_Gehaeuse.f3d`](case/DRO_Gehaeuse.f3d).
+  How the case is built and printed: [video](https://www.youtube.com/watch?v=JSoUT4cyio0).
 
 ![Case open with PCB and connectors](images/dro_case_open.jpg)
 

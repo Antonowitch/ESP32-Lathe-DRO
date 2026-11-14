@@ -10,6 +10,7 @@ Keine App, kein Internet, kein eigenes Display nötig.
 ![Fertige DRO im Gehäuse an der Drehbank](images/dro_case_closed.jpg)
 
 🎥 **Video:** *Link folgt, sobald das Video veröffentlicht ist*
+🛠️ **Gehäusebau und Druck:** [https://www.youtube.com/watch?v=JSoUT4cyio0](https://www.youtube.com/watch?v=JSoUT4cyio0)
 📺 Kanal: [Anton CNC auf YouTube](https://www.youtube.com/@boessi)
 
 Firmware-Version: **v1.0**
@@ -88,6 +89,7 @@ Firmware-Version: **v1.0**
 - **Sub-D-9-Einbaubuchsen** für die Maßstäbe, Kabel zu den JST-XH-Buchsen auf der Platine.
 - **Gehäuse:** [`case/Gehaeuse.stl`](case/Gehaeuse.stl) und [`case/Deckel.stl`](case/Deckel.stl)
   (auch als 3MF); die bearbeitbare Fusion-Konstruktion ist [`case/DRO_Gehaeuse.f3d`](case/DRO_Gehaeuse.f3d).
+  Wie das Gehäuse gebaut und gedruckt wird: [Video](https://www.youtube.com/watch?v=JSoUT4cyio0).
 
 ![Gehäuse offen mit Platine und Steckern](images/dro_case_open.jpg)
 
