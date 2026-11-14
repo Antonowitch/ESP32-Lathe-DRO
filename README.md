@@ -61,7 +61,7 @@ Firmware version: **v1.0**
 | [`hardware/kicad/`](hardware/kicad/) | **Recommended PCB** – KiCad 10 project and [schematic as PDF](hardware/kicad/DRO_schematic.pdf) |
 | [`hardware/kicad/fabrication/`](hardware/kicad/fabrication/) | Gerber, BOM and pick-and-place files for JLCPCB, [ordering notes](hardware/kicad/fabrication/ORDERING.md) |
 | [`hardware/fusion-legacy/`](hardware/fusion-legacy/) | First PCB version from Fusion – **without pull-up resistors and without the on/off switch terminal**, see its [README](hardware/fusion-legacy/README.md) |
-| [`case/`](case/) | 3D-print files for the case (STL and 3MF) |
+| [`case/`](case/) | Case: Fusion design [`DRO_Gehaeuse.f3d`](case/DRO_Gehaeuse.f3d) (housing, lid, aluminium plate, PCB model, CAM setup) and 3D-print files (STL and 3MF) |
 | [`docs/diagram/`](docs/diagram/) | System diagram (Excalidraw source and SVG) |
 | [`images/`](images/) | Photos and renderings |
 
@@ -82,7 +82,7 @@ Firmware version: **v1.0**
 - **5 V power supply** with barrel plug (≥ 2 A recommended) and an **on/off switch** for the case.
 - **Sub-D 9 (DB9) panel connectors** for the scales, cables to the JST-XH sockets on the PCB.
 - **Case:** [`case/Gehaeuse.stl`](case/Gehaeuse.stl) and [`case/Deckel.stl`](case/Deckel.stl)
-  (also as 3MF).
+  (also as 3MF); the editable Fusion design is [`case/DRO_Gehaeuse.f3d`](case/DRO_Gehaeuse.f3d).
 
 ![Case open with PCB and connectors](images/dro_case_open.jpg)
 

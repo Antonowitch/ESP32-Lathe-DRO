@@ -61,7 +61,7 @@ Firmware-Version: **v1.0**
 | [`hardware/kicad/`](hardware/kicad/) | **Empfohlene Platine** – KiCad-10-Projekt und [Schaltplan als PDF](hardware/kicad/DRO_schematic.pdf) |
 | [`hardware/kicad/fabrication/`](hardware/kicad/fabrication/) | Gerber, Stückliste und Bestückungsliste für JLCPCB, [Bestellhinweise](hardware/kicad/fabrication/ORDERING.md) |
 | [`hardware/fusion-legacy/`](hardware/fusion-legacy/) | Erste Platinenversion aus Fusion – **ohne Pull-up-Widerstände und ohne Klemme für den Ein/Aus-Schalter**, siehe [README](hardware/fusion-legacy/README.md) |
-| [`case/`](case/) | 3D-Druckdateien fürs Gehäuse (STL und 3MF) |
+| [`case/`](case/) | Gehäuse: Fusion-Konstruktion [`DRO_Gehaeuse.f3d`](case/DRO_Gehaeuse.f3d) (Gehäuse, Deckel, Alublech, Platinenmodell, CAM-Einrichtung) und 3D-Druckdateien (STL und 3MF) |
 | [`docs/diagram/`](docs/diagram/) | Systemdiagramm (Excalidraw-Quelle und SVG) |
 | [`images/`](images/) | Fotos und Ansichten |
 
@@ -81,7 +81,7 @@ Firmware-Version: **v1.0**
 - **5-V-Netzteil** mit Hohlstecker (≥ 2 A empfohlen) und ein **Ein/Aus-Schalter** fürs Gehäuse.
 - **Sub-D-9-Einbaubuchsen** für die Maßstäbe, Kabel zu den JST-XH-Buchsen auf der Platine.
 - **Gehäuse:** [`case/Gehaeuse.stl`](case/Gehaeuse.stl) und [`case/Deckel.stl`](case/Deckel.stl)
-  (auch als 3MF).
+  (auch als 3MF); die bearbeitbare Fusion-Konstruktion ist [`case/DRO_Gehaeuse.f3d`](case/DRO_Gehaeuse.f3d).
 
 ![Gehäuse offen mit Platine und Steckern](images/dro_case_open.jpg)
 
