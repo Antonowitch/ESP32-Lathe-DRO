@@ -183,7 +183,7 @@ You need a Windows PC, a USB cable (data, not charge-only) and the ESP32 DevKit.
    3. Select the **COM port**, **BAUD: 921600** (if it fails: 115200).
    4. For the very first flash, click **ERASE** once and wait for "FINISH". This clears the whole
       flash, including previously saved settings.
-   5. Click **START** and wait until the panel shows **"FINISH"** (takes about half a minute).
+   5. Click **START** and wait until the panel shows **"FINISH"**.
 4. Press **EN** on the ESP32 (or unplug and replug USB) to restart it. Done.
 
 ![Flash Download Tool settings](images/flash_tool_settings.png)

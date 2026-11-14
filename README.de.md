@@ -182,7 +182,7 @@ Du brauchst einen Windows-PC, ein USB-Kabel (Datenkabel, kein reines Ladekabel) 
    3. **COM-Port** wählen, **BAUD: 921600** (falls es nicht klappt: 115200).
    4. Beim allerersten Flashen einmal **ERASE** klicken und auf „FINISH“ warten. Das löscht den
       ganzen Flash, auch früher gespeicherte Einstellungen.
-   5. **START** klicken und warten, bis im Feld **„FINISH“** steht (etwa eine halbe Minute).
+   5. **START** klicken und warten, bis im Feld **„FINISH“** steht.
 4. **EN** am ESP32 drücken (oder USB kurz abziehen) – der ESP32 startet neu. Fertig.
 
 ![Einstellungen im Flash Download Tool](images/flash_tool_settings.png)
