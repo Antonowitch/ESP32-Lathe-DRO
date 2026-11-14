@@ -174,16 +174,18 @@ Du brauchst einen Windows-PC, ein USB-Kabel (Datenkabel, kein reines Ladekabel) 
    Im Geräte-Manager den COM-Port ablesen (z. B. COM3).
 2. Flash Download Tool starten. Im ersten Fenster
    **ChipType: ESP32, WorkMode: Develop, LoadMode: UART** wählen → OK.
-3. Im Reiter **SPIDownload** in der ersten Zeile: Haken setzen, mit „…“
-   `ESP32_Lathe_DRO_v1.0_merged.bin` auswählen und als Adresse **`0x0`** eintragen.
-   Alle anderen Zeilen ohne Haken.
-4. **SPI SPEED: 40MHz, SPI MODE: DIO**, „DoNotChgBin“ angehakt lassen.
-5. **COM-Port** wählen, **BAUD: 921600** (falls es nicht klappt: 115200).
-6. Beim allerersten Flashen einmal **ERASE** klicken und auf „FINISH“ warten. Das löscht den ganzen
-   Flash, auch früher gespeicherte Einstellungen.
-7. **START** klicken. Wartet das Programm auf die Verbindung: **BOOT**-Taste am ESP32 halten,
-   **EN** kurz drücken, dann BOOT loslassen.
-8. Nach „FINISH“ **EN** drücken (Neustart). Fertig.
+3. Alles wie im Bild unten einstellen:
+   1. Erste Zeile im Reiter **SPIDownload**: Haken setzen, mit „…“
+      `ESP32_Lathe_DRO_v1.0_merged.bin` auswählen und als Adresse **`0x0`** eintragen.
+      Alle anderen Zeilen ohne Haken.
+   2. **SPI SPEED: 40MHz, SPI MODE: DIO**, „DoNotChgBin“ angehakt lassen.
+   3. **COM-Port** wählen, **BAUD: 921600** (falls es nicht klappt: 115200).
+   4. Beim allerersten Flashen einmal **ERASE** klicken und auf „FINISH“ warten. Das löscht den
+      ganzen Flash, auch früher gespeicherte Einstellungen.
+   5. **START** klicken und warten, bis im Feld **„FINISH“** steht (etwa eine halbe Minute).
+4. **EN** am ESP32 drücken (oder USB kurz abziehen) – der ESP32 startet neu. Fertig.
+
+![Einstellungen im Flash Download Tool](images/flash_tool_settings.png)
 
 <details>
 <summary>Alternative: vier Einzeldateien statt der zusammengefassten Datei</summary>

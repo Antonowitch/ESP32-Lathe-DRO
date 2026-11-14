@@ -175,16 +175,18 @@ You need a Windows PC, a USB cable (data, not charge-only) and the ESP32 DevKit.
    In the Device Manager, note the COM port (e.g. COM3).
 2. Start the Flash Download Tool. In the first dialog choose
    **ChipType: ESP32, WorkMode: Develop, LoadMode: UART** → OK.
-3. In the first line of the **SPIDownload** tab: tick the box, select
-   `ESP32_Lathe_DRO_v1.0_merged.bin` with "…" and enter the address **`0x0`**.
-   All other lines stay unticked.
-4. **SPI SPEED: 40MHz, SPI MODE: DIO**, leave "DoNotChgBin" ticked.
-5. Select the **COM port**, **BAUD: 921600** (if it fails: 115200).
-6. For the very first flash, click **ERASE** once and wait for "FINISH". This clears the whole
-   flash, including previously saved settings.
-7. Click **START**. If the tool waits for sync, hold the **BOOT** button on the ESP32, press and
-   release **EN**, then release BOOT.
-8. After "FINISH", press **EN** (reset). Done.
+3. Set everything as in the picture below:
+   1. First line of the **SPIDownload** tab: tick the box, select
+      `ESP32_Lathe_DRO_v1.0_merged.bin` with "…" and enter the address **`0x0`**.
+      All other lines stay unticked.
+   2. **SPI SPEED: 40MHz, SPI MODE: DIO**, leave "DoNotChgBin" ticked.
+   3. Select the **COM port**, **BAUD: 921600** (if it fails: 115200).
+   4. For the very first flash, click **ERASE** once and wait for "FINISH". This clears the whole
+      flash, including previously saved settings.
+   5. Click **START** and wait until the panel shows **"FINISH"** (takes about half a minute).
+4. Press **EN** on the ESP32 (or unplug and replug USB) to restart it. Done.
+
+![Flash Download Tool settings](images/flash_tool_settings.png)
 
 <details>
 <summary>Alternative: four single files instead of the merged file</summary>
