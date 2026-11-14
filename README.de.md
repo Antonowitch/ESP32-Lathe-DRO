@@ -7,7 +7,7 @@ vier Maßstäbe (Glasmaßstäbe oder Magnetband) und zeigt die Positionen auf **
 Gerät** – Handy oder Tablet – als Webseite an, die der ESP32 über sein eigenes WLAN bereitstellt.
 Keine App, kein Internet, kein eigenes Display nötig.
 
-![Fertige DRO im Gehäuse](images/dro_case_finished.jpg)
+![Fertige DRO im Gehäuse an der Drehbank](images/dro_case_closed.jpg)
 
 🎥 **Video:** *Link folgt, sobald das Video veröffentlicht ist*
 📺 Kanal: [Anton CNC auf YouTube](https://www.youtube.com/@boessi)
@@ -50,6 +50,12 @@ Firmware-Version: **v1.0**
 > Die Knöpfe mit langem Drücken (SAVE, Zahnrad, 2X/3X/4X, Achsrichtung) sind für Touchscreens
 > gemacht. Nimm ein Handy oder Tablet – mit der Maus geht das lange Drücken nicht.
 
+<p align="center">
+  <img src="images/webui_portrait.png" alt="Weboberfläche am Handy, hochkant" height="420">
+  <img src="images/webui_landscape.png" alt="Weboberfläche am Handy, quer" height="420">
+</p>
+
+
 ---
 
 ## Was liegt in diesem Repository
@@ -69,7 +75,7 @@ Firmware-Version: **v1.0**
 
 ## Hardware
 
-![Platine oben](images/pcb_3d_top.jpg)
+![KiCad-Platine mit ESP32, Ein/Aus-Schalter und Testkabel](images/pcb_kicad_top.jpg)
 
 ### Teile
 
@@ -96,7 +102,12 @@ Firmware-Version: **v1.0**
 - **J4** Hohlbuchse 5 V → **J10** Ein/Aus-Schalter → +5 V → ESP32 VIN
 - **J6–J9** Schraubklemmen: freie GPIOs, +5 V, +3,3 V und GND für spätere Erweiterungen
 
-![Platine unten mit den SMD-Teilen](images/pcb_3d_bottom.jpg)
+![Platine unten mit den von JLCPCB bestückten SMD-Teilen](images/pcb_kicad_bottom.jpg)
+
+<p align="center">
+  <img src="images/pcb_3d_top.jpg" alt="KiCad-3D-Ansicht oben" width="49%">
+  <img src="images/pcb_3d_bottom.jpg" alt="KiCad-3D-Ansicht unten" width="49%">
+</p>
 
 [![Schaltplan](images/schematic.svg)](hardware/kicad/DRO_schematic.pdf)
 

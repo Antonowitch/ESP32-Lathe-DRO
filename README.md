@@ -7,7 +7,7 @@ linear scales (glass scales or magnetic tape) and shows the positions on **any t
 phone or tablet – through a web page served by the ESP32's own Wi-Fi access point. No app, no
 internet connection, no display hardware needed.
 
-![Finished DRO in its case](images/dro_case_finished.jpg)
+![Finished DRO in its case at the lathe](images/dro_case_closed.jpg)
 
 🎥 **Video (German):** *link follows when the video is published*
 📺 Channel: [Anton CNC on YouTube](https://www.youtube.com/@boessi)
@@ -50,6 +50,12 @@ Firmware version: **v1.0**
 > The long-press buttons (SAVE, settings gear, 2X/3X/4X, axis direction) are made for touch
 > screens. Use a phone or tablet – a mouse cannot do the long press.
 
+<p align="center">
+  <img src="images/webui_portrait.png" alt="Web interface on a phone, portrait" height="420">
+  <img src="images/webui_landscape.png" alt="Web interface on a phone, landscape" height="420">
+</p>
+
+
 ---
 
 ## What's in this repository
@@ -69,7 +75,7 @@ Firmware version: **v1.0**
 
 ## Hardware
 
-![PCB top](images/pcb_3d_top.jpg)
+![KiCad PCB with ESP32, on/off switch and a test cable](images/pcb_kicad_top.jpg)
 
 ### Parts
 
@@ -97,7 +103,12 @@ Firmware version: **v1.0**
 - **J4** barrel jack 5 V → **J10** on/off switch → +5 V → ESP32 VIN
 - **J6–J9** screw terminals: spare GPIOs, +5 V, +3.3 V and GND for future extensions
 
-![PCB bottom with the SMD parts](images/pcb_3d_bottom.jpg)
+![PCB bottom with the SMD parts assembled by JLCPCB](images/pcb_kicad_bottom.jpg)
+
+<p align="center">
+  <img src="images/pcb_3d_top.jpg" alt="KiCad 3D view, top" width="49%">
+  <img src="images/pcb_3d_bottom.jpg" alt="KiCad 3D view, bottom" width="49%">
+</p>
 
 [![Schematic](images/schematic.svg)](hardware/kicad/DRO_schematic.pdf)
 
