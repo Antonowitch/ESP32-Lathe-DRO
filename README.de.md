@@ -10,7 +10,9 @@ Keine App, kein Internet, kein eigenes Display nötig.
 ![Fertige DRO im Gehäuse an der Drehbank](images/dro_case_closed.jpg)
 
 🎥 **Video:** *Link folgt, sobald das Video veröffentlicht ist*
+
 🛠️ **Gehäusebau und Druck:** [https://www.youtube.com/watch?v=JSoUT4cyio0](https://www.youtube.com/watch?v=JSoUT4cyio0)
+
 📺 Kanal: [Anton CNC auf YouTube](https://www.youtube.com/@boessi)
 
 Firmware-Version: **v1.0**

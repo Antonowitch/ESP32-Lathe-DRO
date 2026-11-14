@@ -10,7 +10,9 @@ internet connection, no display hardware needed.
 ![Finished DRO in its case at the lathe](images/dro_case_closed.jpg)
 
 🎥 **Video (German):** *link follows when the video is published*
+
 🛠️ **Building and printing the case (German):** [https://www.youtube.com/watch?v=JSoUT4cyio0](https://www.youtube.com/watch?v=JSoUT4cyio0)
+
 📺 Channel: [Anton CNC on YouTube](https://www.youtube.com/@boessi)
 
 Firmware version: **v1.0**
