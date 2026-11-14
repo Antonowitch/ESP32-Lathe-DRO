@@ -53,6 +53,10 @@ Firmware-Version: **v1.0**
 > Die Knöpfe mit langem Drücken (SAVE, Zahnrad, 2X/3X/4X, Achsrichtung) sind für Touchscreens
 > gemacht. Nimm ein Handy oder Tablet – mit der Maus geht das lange Drücken nicht.
 
+![Weboberfläche auf dem iPad (quer) mit drei Achsen](images/webui_ipad.png)
+
+*Hauptanzeige: iPad im Querformat. Darunter dieselbe Oberfläche am Handy.*
+
 <p align="center">
   <img src="images/webui_portrait.png" alt="Weboberfläche am Handy, hochkant" height="420">
   <img src="images/webui_landscape.png" alt="Weboberfläche am Handy, quer" height="420">

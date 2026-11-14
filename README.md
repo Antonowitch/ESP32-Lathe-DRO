@@ -53,6 +53,10 @@ Firmware version: **v1.0**
 > The long-press buttons (SAVE, settings gear, 2X/3X/4X, axis direction) are made for touch
 > screens. Use a phone or tablet – a mouse cannot do the long press.
 
+![Web interface on an iPad (landscape) with three axes](images/webui_ipad.png)
+
+*Main display: iPad in landscape. Below: the same interface on a phone.*
+
 <p align="center">
   <img src="images/webui_portrait.png" alt="Web interface on a phone, portrait" height="420">
   <img src="images/webui_landscape.png" alt="Web interface on a phone, landscape" height="420">
