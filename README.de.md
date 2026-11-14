@@ -58,8 +58,8 @@ Firmware-Version: **v1.0**
 *Hauptanzeige: iPad im Querformat. Darunter dieselbe Oberfläche am Handy.*
 
 <p align="center">
-  <img src="images/webui_portrait.png" alt="Weboberfläche am Handy, hochkant" height="420">
-  <img src="images/webui_landscape.png" alt="Weboberfläche am Handy, quer" height="420">
+  <img src="images/webui_portrait.png" alt="Weboberfläche am Handy, hochkant" width="16%">
+  <img src="images/webui_landscape.png" alt="Weboberfläche am Handy, quer" width="80%">
 </p>
 
 

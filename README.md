@@ -58,8 +58,8 @@ Firmware version: **v1.0**
 *Main display: iPad in landscape. Below: the same interface on a phone.*
 
 <p align="center">
-  <img src="images/webui_portrait.png" alt="Web interface on a phone, portrait" height="420">
-  <img src="images/webui_landscape.png" alt="Web interface on a phone, landscape" height="420">
+  <img src="images/webui_portrait.png" alt="Web interface on a phone, portrait" width="16%">
+  <img src="images/webui_landscape.png" alt="Web interface on a phone, landscape" width="80%">
 </p>
 
 
