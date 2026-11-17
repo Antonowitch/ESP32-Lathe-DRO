@@ -147,6 +147,11 @@ sich auch in den Einstellungen umkehren lässt).
 |---|---|---|---|---|---|
 | Signal | B | GND | +5 V | GND | A |
 
+Gleiche Verdrahtung für alle vier Buchsen (J1, J2, J3, J5). Auf der Lötseite sind die Sub-D-Nummern
+gespiegelt – bei den meisten Buchsen stehen sie neben den Lötkelchen eingeprägt.
+
+![Verdrahtung JST-XH zu Sub-D 9: Pin 1 → 8, 2 → 2, 3 → 7, 4 → 4, 5 → 6](images/wiring_jst_subd_de.svg)
+
 ![Verdrahtung einer Sub-D-Buchse](images/dro_wiring_subd.jpg)
 
 ### Achsen → ESP32-Eingänge

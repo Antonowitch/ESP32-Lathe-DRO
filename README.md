@@ -148,6 +148,11 @@ changed in the settings).
 |---|---|---|---|---|---|
 | Signal | B | GND | +5 V | GND | A |
 
+The same wiring for all four sockets (J1, J2, J3, J5). The D-sub numbers are mirrored on the solder
+side – most sockets have them embossed next to the solder cups.
+
+![Wiring JST-XH to D-sub 9: pin 1 → 8, 2 → 2, 3 → 7, 4 → 4, 5 → 6](images/wiring_jst_subd_en.svg)
+
 ![Wiring of a Sub-D socket](images/dro_wiring_subd.jpg)
 
 ### Axes → ESP32 inputs
