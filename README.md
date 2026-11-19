@@ -92,7 +92,8 @@ Firmware version: **v1.0**
 - **ESP32 DevKit V1, 30 pins** (ESP32-WROOM-32). The antenna points outward over the board edge.
 - **Linear scales** with 5 V TTL quadrature output (A/B), e.g. glass scales or magnetic tape
   readers, up to four.
-- **5 V power supply** with barrel plug (≥ 2 A recommended) and an **on/off switch** for the case.
+- **5 V power supply** with a **5.5 × 2.1 mm barrel plug, center positive** (≥ 2 A recommended) and an **on/off switch** for the case.
+  I use a Mean Well GST18A05-P1J (5 V, 3 A). A 5.5 × 2.5 mm plug is too loose on the jack (2.0 mm center pin).
 - **Sub-D 9 (DB9) panel connectors** for the scales, cables to the JST-XH sockets on the PCB.
 - **Case:** [`case/Gehaeuse.stl`](case/Gehaeuse.stl) and [`case/Deckel.stl`](case/Deckel.stl)
   (also as 3MF); the editable Fusion design is [`case/DRO_Gehaeuse.f3d`](case/DRO_Gehaeuse.f3d).

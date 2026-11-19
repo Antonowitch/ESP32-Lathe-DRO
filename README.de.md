@@ -91,7 +91,8 @@ Firmware-Version: **v1.0**
   leicht von Hand zu löten. Details und Teilenummern: [ORDERING.md](hardware/kicad/fabrication/ORDERING.md).
 - **ESP32 DevKit V1, 30 Pins** (ESP32-WROOM-32). Die Antenne zeigt nach außen über die Platinenkante.
 - **Maßstäbe** mit 5-V-TTL-Ausgang (A/B), z. B. Glasmaßstäbe oder Magnetband-Leseköpfe, bis zu vier.
-- **5-V-Netzteil** mit Hohlstecker (≥ 2 A empfohlen) und ein **Ein/Aus-Schalter** fürs Gehäuse.
+- **5-V-Netzteil** mit Hohlstecker **5,5 × 2,1 mm, Mitte Plus** (≥ 2 A empfohlen) und ein **Ein/Aus-Schalter** fürs Gehäuse.
+  Ich verwende ein Mean Well GST18A05-P1J (5 V, 3 A). Ein Stecker mit 5,5 × 2,5 mm sitzt auf der Buchse (Mittelstift 2,0 mm) zu locker.
 - **Sub-D-9-Einbaubuchsen** für die Maßstäbe, Kabel zu den JST-XH-Buchsen auf der Platine.
 - **Gehäuse:** [`case/Gehaeuse.stl`](case/Gehaeuse.stl) und [`case/Deckel.stl`](case/Deckel.stl)
   (auch als 3MF); die bearbeitbare Fusion-Konstruktion ist [`case/DRO_Gehaeuse.f3d`](case/DRO_Gehaeuse.f3d).
