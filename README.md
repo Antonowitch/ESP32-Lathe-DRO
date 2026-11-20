@@ -9,7 +9,7 @@ internet connection, no display hardware needed.
 
 ![Finished DRO in its case at the lathe](images/dro_case_closed.jpg)
 
-🎥 **Video (German):** *link follows when the video is published*
+🎥 **Video (German, English subtitles):** [https://www.youtube.com/watch?v=9dQxbsSbBd4](https://www.youtube.com/watch?v=9dQxbsSbBd4)
 
 🛠️ **Building and printing the case (German):** [https://www.youtube.com/watch?v=JSoUT4cyio0](https://www.youtube.com/watch?v=JSoUT4cyio0)
 

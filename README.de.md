@@ -9,7 +9,7 @@ Keine App, kein Internet, kein eigenes Display nötig.
 
 ![Fertige DRO im Gehäuse an der Drehbank](images/dro_case_closed.jpg)
 
-🎥 **Video:** *Link folgt, sobald das Video veröffentlicht ist*
+🎥 **Video:** [https://www.youtube.com/watch?v=9dQxbsSbBd4](https://www.youtube.com/watch?v=9dQxbsSbBd4)
 
 🛠️ **Gehäusebau und Druck:** [https://www.youtube.com/watch?v=JSoUT4cyio0](https://www.youtube.com/watch?v=JSoUT4cyio0)
 
